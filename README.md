@@ -1,5 +1,5 @@
 ### Hi there 👋
-
+This is my personal pages branch. All the files for my [GitHub Page](https://mackyx64.github.io/MackyX64/) are hosted here in this repository.
 <!--
 **MackyX64/MackyX64** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
