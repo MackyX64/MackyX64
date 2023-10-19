@@ -1,3 +1,10 @@
+/* element styles */
 html {
     font-family: Arial, Helvetica, sans-serif;
+}
+/* custom class styles */
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
