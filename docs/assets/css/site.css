@@ -61,3 +61,15 @@ nav div:hover {
 .container-footer {
     padding: 5px;
 }
+#github-pfp {
+    border: 5px solid black;
+    border-radius: 5px;
+    float: right;
+    margin: 5px;
+}
+@media screen and (max-width: 800px) {
+    .column-left, .column-right {
+        width: 100%;
+        padding: 0;
+    }
+}
