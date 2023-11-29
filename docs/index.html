@@ -1,20 +1,64 @@
-<!DOCTYPE html>
 <html lang="en">
     <head>
-        <title></title>
-        <link rel="stylesheet" type="text/css" href="assets/site.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="assets/css/site.css">
+        <title>Macky's GitPage</title>
     </head>
     <body>
         <header>
-            <ul class="navbar">
-                <li><a href="index.html">Home</a></li>
-            </ul>
+            <nav>
+                <a id="logo" href="index.html">My Site</a>
+                <div><a href="index.html">Home</a></div>
+                <div><a href="about.html">About</a></div>
+            </nav> 
         </header>
-        <h1>My Site</h1>
-        <p>
-            Welcome to my personal site!<br>
-            This page is still work in progress. Please check back later for updates.
-        </p>
-        <footer>Copyright 2023 Macaulay Woolley</footer>
+        <main>
+            <h1>My Site</h1>
+            <div class="row">
+                <div class="column-left">
+                    <h2>Sub Arcticle</h2>
+                    <p>
+                        Ipsum lorem...
+                    </p>
+                </div>
+                <div class="column-right">
+                    <h2>Contact Me!</h2>
+                    <form action="submit.php">
+                        <table>
+                            <tr>
+                                <th>
+                                    <label for="yourname">Name</label>
+                                </th>
+                                <td>
+                                    <input type="text" title="yourname">
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <label for="youremail">Email</label>
+                                </th>
+                                <td>
+                                    <input type="email" title="youremail">
+                                </td>
+                            </tr>
+                        </table>
+                        <input type="submit"><br>
+                        <sup>
+                            By pressing submit, you agree to allow your email to be used to contact you and send updates.<br>
+                            You can unsubscribe using the link provided in the confirmation email at any time.
+                        </sup>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="container-footer" id="contacts">
+                Contact me via <a href="mailto:macfitzwool99@gmail.com">Gmail</a>|<a href="mailto:383263@student.bedford.ac.uk">Outlook</a> or find me via my social media! <a href="https://twitter.com/MackyX64">Twitter</a>
+            </div>
+            <div class="container-footer" id="copyrights">
+                &copy; 2023 Macaulay Fitzpatrick Ferrer Woolley
+            </div>
+        </footer>
     </body>
 </html>
