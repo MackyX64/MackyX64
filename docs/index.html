@@ -3,7 +3,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="assets/css/site.css">
-        <title>Macky's GitPage</title>
+        <title>Macky's Personal Site</title>
     </head>
     <body>
         <header>
@@ -14,41 +14,57 @@
             </nav> 
         </header>
         <main>
-            <h1>My Site</h1>
+            <div class="card">
+                <h1>My Website</h1>
+            </div>
             <div class="row">
                 <div class="column-left">
-                    <h2>Sub Arcticle</h2>
-                    <p>
-                        Ipsum lorem...
-                    </p>
+                    <div class="card">
+                        <h2>Hello World!</h2>
+                        <sub>Posted 29th November 2023 by Macaulay Woolley</sub>
+                        <p>
+                            Welcome to my corner of the web! You can find out more about me on the "About Me" page!<br>
+                            I may sometimes post occasional updates on this site regarding my current activites.<br>
+                            This site is scratch-built from the ground up all written using HTML and CSS with the occasional JavaScript thrown in.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h2>???</h2>
+                        <sub>Coming soon...</sub>
+                        <p>
+                            <!-- blank card -->
+                        </p>
+                    </div>
                 </div>
                 <div class="column-right">
-                    <h2>Contact Me!</h2>
-                    <form action="submit.php">
-                        <table>
-                            <tr>
-                                <th>
-                                    <label for="yourname">Name</label>
-                                </th>
-                                <td>
-                                    <input type="text" title="yourname">
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    <label for="youremail">Email</label>
-                                </th>
-                                <td>
-                                    <input type="email" title="youremail">
-                                </td>
-                            </tr>
-                        </table>
-                        <input type="submit"><br>
-                        <sup>
-                            By pressing submit, you agree to allow your email to be used to contact you and send updates.<br>
-                            You can unsubscribe using the link provided in the confirmation email at any time.
-                        </sup>
-                    </form>
+                    <div class="card">
+                        <h2>Contact Me!</h2>
+                        <form action="submit.php">
+                            <table>
+                                <tr>
+                                    <th>
+                                        <label for="name">Name</label>
+                                    </th>
+                                    <td>
+                                        <input type="text" title="name">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <label for="email">Email</label>
+                                    </th>
+                                    <td>
+                                        <input type="email" title="email">
+                                    </td>
+                                </tr>
+                            </table>
+                            <input type="submit" alt="Contact Me Form" disabled><br>
+                            <sup>
+                                By pressing submit, you agree to allow your email to be used to contact you and send updates.<br>
+                                You can unsubscribe using the link provided in the confirmation email at any time.
+                            </sup>
+                        </form>
+                    </div>
                 </div>
             </div>
         </main>
