@@ -1,5 +1,5 @@
 ### Hi there 👋
-This is my personal pages branch. All the files for my [GitHub Page](https://macfitzwool.github.io/macfitzwool/) are hosted here in this repository.
+This is my personal pages branch. All the files for my [GitHub Page](https://macfitzwool.github.io/macfitzwool/) are hosted here in this repository branch.
 <!--
 **macfitzwool/macfitzwool** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
