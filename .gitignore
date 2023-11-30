@@ -1,0 +1,3 @@
+# replit development environment ignores
+.replit
+replit.nix
